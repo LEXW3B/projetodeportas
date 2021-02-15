@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porta NAND</title>
+    <script>
+        function NANDapagada() {
+            document.getElementById("luz").src="../imagemNAND/portaNANDoff.png"
+        ;}
+        function NANDacesa() {
+            document.getElementById("luz").src="../imagemNAND/portaNANDon.png"
+        ;}
+    </script>
+</head>
+<body>
+    <h1><p><strong>Porta NAND</strong></p></h1>
+    <img src="../imagemNAND/portaNANDoff.png" alt="imagem apagada" id="luz" onmousemove="NANDacesa()" onmouseout="NANDapagada()"/>    
+</body>
+</html>

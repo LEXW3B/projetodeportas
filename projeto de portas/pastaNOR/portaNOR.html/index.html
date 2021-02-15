@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porta NOR</title>
+    <script>
+        function portaNORon() {
+            document.getElementById("luz").src="../imagemNOR/portaNORon.png"
+        ;}
+        function portaNORoff() {
+            document.getElementById("luz").src="../imagemNOR/portaNORoff.png"
+        ;}
+    </script>
+</head>
+<body>
+    <h1><p><strong>Porta NOR á lâmpada só acende se estiver os dois conectores abertos, ou os dois conectores fechados.</strong></p></h1>
+    <img src="../imagemNOR/portaNORoff.png" alt="imagemApagada" id="luz" onmousemove="portaNORon()" onmouseout="portaNORoff()"/>    
+</body>
+</html>

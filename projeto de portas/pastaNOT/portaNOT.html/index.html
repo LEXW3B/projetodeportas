@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porta NOT</title>
+    <script>         
+        function NOTapagada() {
+            document.getElementById("luz").src="../imagensNOT/imagemNOToff.png";
+        }               
+        function NOTacesa() {
+            document.getElementById("luz").src="../imagensNOT/imagemNOTon.png";
+        }      
+    </script>
+</head>
+<body>
+    <h1><p><strong>Porta NOT a energia só passa quando o contato está aberto.</strong></p></h1>
+    <img src="../imagensNOT/imagemNOToff.png" id="luz" alt="imagem apagada" onmousemove="NOTacesa()" onmouseout="NOTapagada()"/>
+</body>
+</html>

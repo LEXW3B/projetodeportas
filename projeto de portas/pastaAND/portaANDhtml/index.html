@@ -1,0 +1,23 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porta AND</title>
+</head>
+<script>
+    function AeBon() {
+        document.getElementById("luz").src ="../imagensAND/AeBon.png";//Em função a imagem só é carregada se a barra for para o outro lado.Este é errado ( \ ), este é certo ( / ).//
+        }
+    function AeBoff() {
+        document.getElementById("luz").src ="../imagensAND/AeBoff.png";//nao esqueça do ( ; )toda vez que acabar uma ondem em função.//
+        }
+   </script>
+</head>
+
+<body>
+     <h1><p><strong>Porta AND precisa fechar os dois contatos.</strong></p></h1>
+        <img src="../imagensAND/AeBoff.png"id="luz" onmousemove="AeBon()" onmouseout="AeBoff()"/>
+
+
+</body>
+</html>

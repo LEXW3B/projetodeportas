@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porta OR</title>
+    <script>        
+        function portaORon() {
+            document.getElementById("luz").src="../imagensOR/portaORon.png";
+        }
+        function portaORoff() {
+            document.getElementById("luz").src="../imagensOR/portaORoff.jpg";
+        }        
+    </script>
+</head>
+<body>
+    <h1><p><strong>Porta OR só precisa fechar um dos contatos para funcinar.</strong></p></h1>
+    <img src="../imagensOR/portaORoff.jpg" alt="imagem portaORoff" id="luz" onmousemove="portaORon()" onmouseout="portaORoff()" />
+    
+</body>
+</html>
